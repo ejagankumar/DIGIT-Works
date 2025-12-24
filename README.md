@@ -1,25 +1,22 @@
-# DIGIT Works
+---
+description: Works platform design principles, approach and rationale
+---
 
-DIGIT is a set of Open APIs, services, and reference implementations, setup as a public good, to allow government entities, businesses, startups, and civil society to use a unique digital Infrastructure and build solutions for urban India at a large scale. It provides a set of open standards, specifications and documentation to create a level playing field and enable ecosystem players to innovate on the stack. As a public good, the platform is provided without profit or restriction to all members of society.
+# Architecture
 
-DIGIT focuses on inclusion and is designed on the principle of enhancing both platform openness and choice for citizens. The platform uses open APIs and standards, creating a powerful framework to drive convergence across the multiple systems currently in use, and to lower the barrier to entry for locally-developed solutions. Keeping in mind that most Indians use the internet through their phones, we follow and advocate a “mobile-first” approach, while supporting multi-channel access to accommodate diverse needs and preferences.
+## Principles
 
-## Explore more from these Useful Links:
+The Works platform design approach is based on the principles of interoperability, open, standards-based, real-time, inclusivity, a single source of truth, security and privacy. The principles define the framework for a scalable and reliable platform that adapts to evolving needs. Read more about the platform [design principles here](https://core.digit.org/platform/principles).&#x20;
 
-* ### [Documentation](https://docs.digit.org)
+Works aims to expedite payments for public works projects undertaken by different departments. The platform registries and APIs ensure units have instant access to trusted information that improves coordination between the various departments. The seamless flow of information ensures payments are fast-tracked, projects are managed better, and departments can execute more work.
 
-* ### [Discuss with community](https://github.com/egovernments/DIGIT/discussions)
+## Approach
 
-* ### [Issue Reporting](https://github.com/egovernments/DIGIT/issues)
+<div align="left"><figure><img src="../../.gitbook/assets/diagram.png" alt=""><figcaption><p>iFIX integration approach</p></figcaption></figure></div>
 
+The platform design provides the capability to integrate smart payments with [iFIX](https://pfm.digit.org/).  The integration enables departments to track project milestones and simplify vendor payments. The multi-layer architecture design ensures transparency, visibility and fast decisions all of which translate to an accelerated pace of development. The registries and APIs ensure information flows seamlessly across channels removing the challenges of siloed data structures and facilitating interoperability. &#x20;
 
-## Some of the DIGIT Platform/Features
-<img src="https://egov-images.s3.ap-south-1.amazonaws.com/DIGIT+-+Features.png" width="1000">
+Click on the page link below to learn more about the DIGIT platform architecture.
 
-## Tech Overview
-<img src="https://egov-images.s3.ap-south-1.amazonaws.com/DIGIT+-+TechStack.png" width="1000">
+{% embed url="https://core.digit.org/platform/architecture" %}
 
-
-### DIGIT Code is open sources under the MIT License and under [Contributor License Agreement](https://forms.gle/nnNZjB7P1YPuEHb69)
-
-### DIGIT is Developed and Maintained by eGovrnments Foundation (A non-profit and non-governmental organisation)
